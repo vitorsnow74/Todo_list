@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./images/page_logo.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Task Manager</title>
+</head>
+<body>
+
+    <header>
+            <h1>Todo-List /</h1>                        
+    </header>
+
+    <section>
+        <div class="important">
+            
+            <div class="alertmessage">
+                <img class="alertimage" src="./images/alert.png" alt="alert">
+                <h2>Fique atento!<br>Tarefa Importante:</h2>             
+            </div>                
+            <p class="text"></p>
+            <div class="changeimportant">                
+                <input class="storage" type="text" placeholder="Adicionar ou alterar tarefa ...">
+                <button class="button">Priorizar</button>
+            </div>                   
+        </div>
+
+        <div class="tasks">
+            <div class="todo">
+                <div class="todo__title">Tarefas</div>
+                <div class="todo__list" id='todoList'></div>
+                <div class="todo__new-item" id="newItem">
+                    <input type="text" placeholder="insert something new...">            
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+
+        <img class="creditos" src="./images/lhama.png" alt="creditos">
+
+        <div class="textArea">
+            Créditos:
+
+            <p>Video do criador do Tutorial: 
+                <a target="_blank" href="https://www.youtube.com/watch?v=oGEYs52ZuHY&t=782s">Fernando Leonid</a>
+            </p>
+
+            <p>Icone da página: 
+                <a target="_blank" href="https://icons8.com/icon/0Wy55IV9Yvny/task">Task icon by Icons8</a>
+            </p>
+
+            <p>Icone de alerta: 
+                <a target="_blank" href="https://csprojetos.com/wp-content/uploads/2017/07/emergency-alert-icon-alert-icon-8.png">csprojetos alert icon</a>
+            </p>
+        
+            <p>Icone do Emoji: 
+                <a target="_blank" href="https://icons8.com.br/icon/NQANJw03vu7T/pinata">Pinata by Icons8</a>    
+            </p>
+        </div>
+    </footer>
+
+  
+
+    
+</body>
+<script src="./js/app.js"></script>
+</html>

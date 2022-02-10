@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 75.5%;
+    scroll-behavior: smooth;
+}
+
+body {    
+    background-color:  #f3edf5;    
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    float: center;
+    text-align: center;
+}
+
+header, h1{
+    font-size: 40px;
+}
+
+section{
+    display: grid;
+}
+
+a{
+    text-decoration: none;
+    color: #f6d203;
+}
+
+input{
+    border: none;
+}
+
+button{
+    width: 110px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    background: #f6d203;
+    color: #FFFFFF;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.important{
+    display: grid;
+    margin-top: 30px;
+    margin-left: 5vw;
+    width: 90vw;
+    padding: 30px;
+    background-color: #c5effb;
+}
+
+.alertimage{    
+    width: 50px; 
+    margin: auto;   
+}
+
+.alertmessage{
+    display: flex;
+    margin: auto;
+}
+
+.storage{
+    width: 8cm; 
+    height: 1cm;
+    padding-left: 1%;
+}
+
+.changeimportant{
+    float: right;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.text{
+    background-color: rgba(255, 255, 255, 0.5);    
+    margin-top: 15px;
+    padding: 1%;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a;
+    color: white;
+    width: 100vw;
+    height: 30vh;
+    margin-top: 30vh; 
+}
+
+.creditos{
+    width: 180px;
+    height: 130px;
+    margin-top: 5%;
+}
+
+.textArea {
+    margin-top: 7%;
+}
+
+/*Codigo do tutorial*/
+.todo {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;    
+    align-items: center;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.todo__title {
+    display: flex;
+    background-color: #f44c5c;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    box-shadow: 1px 1px 5px #f6f7f9;
+    font-size: 3rem;
+    color: #f6f7f9;
+}
+
+.todo__list {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo__item{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 1px 1px 5px #000000;
+}
+.todo__item div {
+    width: 80%;
+}
+.todo__item:hover {
+    cursor: pointer;
+    transition: all .5s ease;
+    background-color: #fa5051;
+    color: #f6f7f9;
+    font-size: 25px;
+}
+
+
+.todo__item input[type='text'] {
+    border: none;
+    width: 80%;
+    font: inherit;
+}
+
+.todo__item input[type='button'],
+.todo__item input[type='checkbox'] {
+    width: 30px;
+    height: 30px;
+    font: inherit;
+}
+
+
+.todo__item input[type='checkbox']:checked  + div {
+    text-decoration:line-through;
+}
+
+.todo__new-item{
+    display: flex;
+    background-color: #f6d203;
+    width: 100%;
+    height: 70px;
+    justify-content: space-evenly;
+    padding: 10px;    
+    margin: 10px;
+}
+
+.todo__new-item input{
+    color: #000000;
+    background-color: #f6d203;
+    width: 80%;
+    outline: none;
+    font: inherit;
+}
