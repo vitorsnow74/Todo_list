@@ -17,7 +17,7 @@ body {
 }
 
 header{
-    float: center;
+    display: flex;
     text-align: center;
 }
 
@@ -31,7 +31,7 @@ section{
 
 a{
     text-decoration: none;
-    color: #f6d203;
+    color: #45b404;
 }
 
 input{
@@ -43,29 +43,29 @@ button{
     height: 40px;
     font-size: 17px;
     font-weight: bold;
-    background: #f6d203;
+    background: #6fce39;
     color: #FFFFFF;
     cursor: pointer;
     overflow: hidden;
 }
 
-.important{
-    display: grid;
-    margin-top: 30px;
-    margin-left: 5vw;
-    width: 90vw;
-    padding: 30px;
-    background-color: #c5effb;
+button:hover{
+    background-color: #353535;
 }
 
-.alertimage{    
-    width: 50px; 
-    margin: auto;   
+hr{
+    margin-top: 2%;
+    opacity: 30%;
 }
 
-.alertmessage{
-    display: flex;
-    margin: auto;
+.priorizeBar{
+    margin-left: 5%;
+}
+
+.priorizeText{
+    font-size: 26px;
+    margin-top: 3%;
+    text-align: center;
 }
 
 .storage{
@@ -74,13 +74,8 @@ button{
     padding-left: 1%;
 }
 
-.changeimportant{
-    float: right;
-    margin: auto;
-    margin-top: 15px;
-}
-
 .text{
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgba(255, 255, 255, 0.5);    
     margin-top: 15px;
     padding: 1%;
@@ -93,18 +88,20 @@ footer{
     background-color: #1a1a1a;
     color: white;
     width: 100vw;
-    height: 30vh;
-    margin-top: 30vh; 
+    height: 25vh;
+    margin-top: 40vh; 
 }
 
-.creditos{
-    width: 180px;
+.credits{
+    width: 125px;
     height: 130px;
-    margin-top: 5%;
+    margin: 3%;
 }
 
 .textArea {
-    margin-top: 7%;
+    margin-top: 3.5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
 
 /*Codigo do tutorial*/
@@ -119,7 +116,7 @@ footer{
 
 .todo__title {
     display: flex;
-    background-color: #f44c5c;
+    background-color: #4cf4a6;
     width: 100%;
     height: 80px;
     justify-content: center;
@@ -153,7 +150,7 @@ footer{
 .todo__item:hover {
     cursor: pointer;
     transition: all .5s ease;
-    background-color: #fa5051;
+    background-color: #2b4d2f;    
     color: #f6f7f9;
     font-size: 25px;
 }
@@ -179,7 +176,7 @@ footer{
 
 .todo__new-item{
     display: flex;
-    background-color: #f6d203;
+    background-color: #3f3f3f;
     width: 100%;
     height: 70px;
     justify-content: space-evenly;
@@ -188,9 +185,10 @@ footer{
 }
 
 .todo__new-item input{
-    color: #000000;
-    background-color: #f6d203;
+    color: #ffffff;    
+    background-color: #3f3f3f;
     width: 80%;
+    text-align: ;
     outline: none;
     font: inherit;
 }

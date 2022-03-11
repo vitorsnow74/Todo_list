@@ -4,28 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="./images/page_logo.png" type="image/png">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./dist/style.css">
     <title>Task Manager</title>
 </head>
 <body>
 
     <header>
-            <h1>Todo-List /</h1>                        
+        <h1>Todo-List /</h1>          
+            
+        <div class="priorizeBar">
+            <input class="storage" type="text" placeholder="Priorizar tarefa ...">
+            <button class="button">Salvar</button>        
+        </div>
     </header>
 
-    <section>
-        <div class="important">
-            
-            <div class="alertmessage">
-                <img class="alertimage" src="./images/alert.png" alt="alert">
-                <h2>Fique atento!<br>Tarefa Importante:</h2>             
-            </div>                
-            <p class="text"></p>
-            <div class="changeimportant">                
-                <input class="storage" type="text" placeholder="Adicionar ou alterar tarefa ...">
-                <button class="button">Priorizar</button>
-            </div>                   
-        </div>
+    <hr>
+
+    <p class="priorizeText">👀👇 Priorizar:</p>
+    
+    <section>                                          
+        <p class="text"></p>            
 
         <div class="tasks">
             <div class="todo">
@@ -36,12 +34,10 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <footer>
-
-        <img class="creditos" src="./images/lhama.png" alt="creditos">
+        <img class="credits" src="./images/credit.png" alt="creditos">
 
         <div class="textArea">
             Créditos:
@@ -58,8 +54,8 @@
                 <a target="_blank" href="https://csprojetos.com/wp-content/uploads/2017/07/emergency-alert-icon-alert-icon-8.png">csprojetos alert icon</a>
             </p>
         
-            <p>Icone do Emoji: 
-                <a target="_blank" href="https://icons8.com.br/icon/NQANJw03vu7T/pinata">Pinata by Icons8</a>    
+            <p>Icone dos Creditos: 
+                <a target="_blank" href="https://icons8.com.br/icon/TIcq6nNACnhE/autumn">Autumn</a> ícone por <a target="_blank" href="https://icons8.com.br">Icons8</a>                
             </p>
         </div>
     </footer>
@@ -68,5 +64,5 @@
 
     
 </body>
-<script src="./js/app.js"></script>
+<script src="./app/js/app.js"></script>
 </html>
