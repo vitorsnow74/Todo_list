@@ -155,6 +155,10 @@ footer{
     font-size: 25px;
 }
 
+.chatEmote{
+    font-size: 35px;
+    width: 100%;
+}
 
 .todo__item input[type='text'] {
     border: none;
@@ -187,8 +191,7 @@ footer{
 .todo__new-item input{
     color: #ffffff;    
     background-color: #3f3f3f;
-    width: 80%;
-    text-align: ;
+    width: 1000%;    
     outline: none;
     font: inherit;
 }
